@@ -8,6 +8,9 @@ body {
 padding :10px;
 }
 </style>
+        <script src="jquery.min.js"></script>
+        <script src="qrcode.min.js"></script>
+
 </head>
 <body>  
 <h1>PayPoint Android SDK Demo App</h1> 
@@ -22,10 +25,13 @@ Set up your phone:
  </li>
 <li> Install the app: 
 <ul> 
-<li> If are on your phone,  <a href="http://paypoint.github.io/android_sample_b61.apk">Click Here</a> </li> 
+<li> If are on your phone,  <a href="http://paypoint.github.io/android_sample_b62.apk">Click Here</a> </li> 
 <li> If you have a barcode scanner scan this code:
 <p>
-<a href="http://paypoint.github.io/android_sample_b61.apk"><img  src="android_qrcode.png"> </a>
+<a href="http://paypoint.github.io/android_sample_b62.apk"><div id="qrcode"></div> </a>
+<script>
+new QRCode(document.getElementById("qrcode"), "http://paypoint.github.io/android_sample_b62.apk");
+</script>
 </p> 
 </li>
 </ul>
