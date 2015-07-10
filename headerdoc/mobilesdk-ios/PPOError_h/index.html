@@ -346,6 +346,8 @@ function disclosure_triangle(elt) {
     <a machinegenerated="true" href="index.html#//apple_ref/c/econst/PPOPaymentErrorNotInitialised" logicalPath="//apple_ref/c/econst/PPOPaymentErrorNotInitialised" target="_top"><span class="var">PPOPaymentErrorNotInitialised</span></a>,  
     <span class="comment">///Represents an unexpected error.</span> 
     <a machinegenerated="true" href="index.html#//apple_ref/c/econst/PPOPaymentErrorUnexpected" logicalPath="//apple_ref/c/econst/PPOPaymentErrorUnexpected" target="_top"><span class="var">PPOPaymentErrorUnexpected</span></a>,  
+    <span class="comment">///An invalid parameter was supplied in your payment.</span> 
+    <a machinegenerated="true" href="index.html#//apple_ref/c/econst/PPOPaymentValidationError" logicalPath="//apple_ref/c/econst/PPOPaymentValidationError" target="_top"><span class="var">PPOPaymentValidationError</span></a>,  
     <span class="comment">///The supplied bearer token has expired.</span> 
     <a machinegenerated="true" href="index.html#//apple_ref/c/econst/PPOPaymentErrorClientTokenExpired" logicalPath="//apple_ref/c/econst/PPOPaymentErrorClientTokenExpired" target="_top"><span class="var">PPOPaymentErrorClientTokenExpired</span></a>,  
     <span class="comment">///The supplied bearer token is invalid.</span> 
@@ -379,12 +381,16 @@ function disclosure_triangle(elt) {
 <dd><p>Error not yet initialised.</p></dd>
 <dt><a name="//apple_ref/c/econst/PPOPaymentErrorUnexpected"><code>PPOPaymentErrorUnexpected</code></a></dt>
 <dd><p>Represents an unexpected error.</p></dd>
+<dt><a name="//apple_ref/c/econst/PPOPaymentValidationError"><code>PPOPaymentValidationError</code></a></dt>
+<dd><p>An invalid parameter was supplied in your payment.</p></dd>
 <dt><a name="//apple_ref/c/econst/PPOPaymentErrorClientTokenExpired"><code>PPOPaymentErrorClientTokenExpired</code></a></dt>
 <dd><p>The supplied bearer token has expired.</p></dd>
 <dt><a name="//apple_ref/c/econst/PPOPaymentErrorClientTokenInvalid"><code>PPOPaymentErrorClientTokenInvalid</code></a></dt>
 <dd><p>The supplied bearer token is invalid.</p></dd>
 <dt><a name="//apple_ref/c/econst/PPOPaymentErrorUnauthorisedRequest"><code>PPOPaymentErrorUnauthorisedRequest</code></a></dt>
 <dd><p>The supplied token does not have sufficient permissions to access the specified feature.</p></dd>
+<dt><a name="//apple_ref/c/econst/PPOPaymentErrorThreeDSecureTransactionProcessingFailedToInitiate"><code>PPOPaymentErrorThreeDSecureTransactionProcessingFailedToInitiate</code></a></dt>
+<dd><p>The transaction was successfully submitted but did not initiate three D secure validation.</p></dd>
 <dt><a name="//apple_ref/c/econst/PPOPaymentErrorThreeDSecureTransactionProcessingFailed"><code>PPOPaymentErrorThreeDSecureTransactionProcessingFailed</code></a></dt>
 <dd><p>The transaction was successfully submitted but did not complete three D secure validation.</p></dd>
 <dt><a name="//apple_ref/c/econst/PPOPaymentErrorServerFailure"><code>PPOPaymentErrorServerFailure</code></a></dt>
@@ -412,7 +418,7 @@ function disclosure_triangle(elt) {
 <p class="gapBeforeFooter">&nbsp;</p>
 <hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
-<p class="hd_timestamp">Last Updated: Tuesday, July 07, 2015
+<p class="hd_timestamp">Last Updated: Friday, July 10, 2015
 </p>
 </div>
 </td>
