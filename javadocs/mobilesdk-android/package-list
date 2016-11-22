@@ -1,4 +1,4 @@
-com.paypoint.sdk.library.exception
-com.paypoint.sdk.library.network
-com.paypoint.sdk.library.payment
-com.paypoint.sdk.library.security
+com.pay360.sdk.library.exception
+com.pay360.sdk.library.network
+com.pay360.sdk.library.payment
+com.pay360.sdk.library.security
